@@ -37,5 +37,5 @@ For each thread show the (5) thread ID's: <ul> <li> SPID: 1662 </li> <li> SPID: 
 <ol>
     <li> I have to make the loop count to at least 900000 in order for the counter to not match the intended value.  </li>
     <li> This code is in a critical section, meaning a code with multiple threads executing where it results in a race condition. A race condition is when the results depend on the timing of execution of the code. </li>
-    <li> more cores- less clock speed </li>
+    <li> more cores = less clock speed </li>
    </ol> 

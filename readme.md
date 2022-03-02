@@ -24,7 +24,7 @@ Threads share address spaces and processes do not. This makes it a lot easier wh
 
 
 b) Why would you use multiple threads in a program?
-
+Threading allows for parallelism which makes it so programs run faster on modern hardware. Threading also makes it possible to avoid blocking the program's progress due to the I/O being slow, it does this by allowing overlap of I/O with other things in that program. 
 
 c) Example of a process that has multiple threads: 
 The name of the command that is running: gjs
@@ -35,7 +35,7 @@ For each thread show the (5) thread ID's: <ul> <li> SPID: 1662 </li> <li> SPID: 
 
 ### Memory and Concurrency
 <ol>
-    <li> a) I have to go to at least 900000  </li>
-    <li> b) Read the book page 10 threads intro </li>
-    <li> c) more cores- less clock speed </li>
+    <li> I have to go to at least 900000  </li>
+    <li> Read the book page 10 threads intro </li>
+    <li> more cores- less clock speed </li>
    </ol> 

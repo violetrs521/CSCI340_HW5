@@ -19,13 +19,19 @@ b) Other than the virtual page numbers the two bash programs are identical. The 
 
 ### Threads
 
-a)
+a) What is the main difference between processes and threads?
 
-b)
 
-c) The name of the command that is running: gjs
+
+b) Why would you use multiple threads in a program?
+
+
+c) Example of a process that has multiple threads: 
+The name of the command that is running: gjs
 The pid for the process: 1662
-For each thread show the 5 thread ID's: SPID: 1662, SPID: 1665, SPID: 1666, SPID: 1668, and SPID: 1669      
+
+For each thread show the (5) thread ID's: <ul> <li> SPID: 1662, </li> <li> SPID: 1665, </li> <li>SPID: 1666, </li> <li> SPID: 1668, </li> <li> and SPID: 1669 </li>
+    </ul>
 
 ### Memory and Concurrency
 

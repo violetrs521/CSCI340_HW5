@@ -34,7 +34,8 @@ For each thread show the (5) thread ID's: <ul> <li> SPID: 1662 </li> <li> SPID: 
     </ul>
 
 ### Memory and Concurrency
-
-a) I have to go to at least 900000
-b) Read the book page 10 threads intro
-c) more cores- less clock speed
+<ol>
+    <li> a) I have to go to at least 900000  </li>
+    <li> b) Read the book page 10 threads intro </li>
+    <li> c) more cores- less clock speed </li>
+   </ol> 

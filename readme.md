@@ -20,7 +20,7 @@ b) Other than the virtual page numbers the two bash programs are identical. The 
 ### Threads
 
 a) What is the main difference between processes and threads?
-
+Threads share address spaces and processes do not. This makes it a lot easier when trying to share data with threads, processes should be used when tasks are logically separate. Processes have page tables and translation lookaside buffers while threads do not this means processes take longer when context switching.
 
 
 b) Why would you use multiple threads in a program?
@@ -30,7 +30,7 @@ c) Example of a process that has multiple threads:
 The name of the command that is running: gjs
 The pid for the process: 1662
 
-For each thread show the (5) thread ID's: <ul> <li> SPID: 1662, </li> <li> SPID: 1665, </li> <li>SPID: 1666, </li> <li> SPID: 1668, </li> <li> and SPID: 1669 </li>
+For each thread show the (5) thread ID's: <ul> <li> SPID: 1662 </li> <li> SPID: 1665 </li> <li>SPID: 1666 </li> <li> SPID: 1668 </li> <li> SPID: 1669 </li>
     </ul>
 
 ### Memory and Concurrency

@@ -1,4 +1,4 @@
-#Homework 1
+#Homework 5
 ##Violet Smith
 ## 03/01/2022
 
@@ -27,3 +27,8 @@ c) The name of the command that is running: gjs
 The pid for the process: 1662
 For each thread show the 5 thread ID's: SPID: 1662, SPID: 1665, SPID: 1666, SPID: 1668, and SPID: 1669      
 
+### Memory and Concurrency
+
+a) I have to go to at least 900000
+b) Read the book page 10 threads intro
+c) more cores- less clock speed
